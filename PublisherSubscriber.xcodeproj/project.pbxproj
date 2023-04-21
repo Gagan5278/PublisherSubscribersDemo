@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D387EF129F2C93A00105879 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5DF78D872995448900CF2211 /* Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basics.swift; sourceTree = "<group>"; };
 		5DFA2384299456E800BE87F3 /* PublisherSubscriber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublisherSubscriber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFA2387299456E800BE87F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D387EF029F2C8DE00105879 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				5D387EF129F2C93A00105879 /* MyPlayground.playground */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
 		5DF78D862995447D00CF2211 /* BasicsWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +126,7 @@
 		5DFA2386299456E800BE87F3 /* PublisherSubscriber */ = {
 			isa = PBXGroup;
 			children = (
+				5D387EF029F2C8DE00105879 /* Playground */,
 				5DF78D862995447D00CF2211 /* BasicsWithSwiftUI */,
 				5DFA23B92994670800BE87F3 /* SecondView */,
 				5DFA23B82994669A00BE87F3 /* Storyborad */,
